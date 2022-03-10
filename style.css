@@ -1,6 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+    
 }
 button {
     font-family: Roboto, sans-serif;
@@ -49,11 +52,12 @@ button {
     flex-direction: column;
     width: 300px;
     background-color: rgb(88, 91, 255);
-    padding: 100px;
+    padding: 30px;
+    padding-right: 200px;
 }
 .header-right {
     display: flex;
-    background-color: rgb(243, 63, 63);
+    background-color: #f33f3f;
     justify-content: center;
     align-items: center;
     padding: 100px;
@@ -66,4 +70,44 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+.container,
+.container-2,
+.container-3 {
+    display: flex;
+    justify-content: center;
+}
+.info {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+div.text {
+    width: 120px;
+    font-size: small;
+}
+.title {
+    font-size: 36px;
+    font-weight: 900;
+  
+    margin: 32px;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 60px;
+    gap: 0px;
+
+}
+.container-2 {
+    background-color: #e5e7eb;
+
 }
