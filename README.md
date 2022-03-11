@@ -1,1 +1,3 @@
 # project-landing-page
+
+In this project, I used html and css in order to recreate a [web landing page](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png) provided by The Odin Project. I practiced my skills of using and thinking with flexbox properties. For instance, I created container modules in the index.html file in order to prepare my style.css file for the flexbox properties. I also learned to be resourceful by referencing past exercises I've worked on, using html and css web articles provided by The Odin Project, and googling things I didn't quite understand how to achieve (such as rounded corners).
